@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QBCore Guidebook</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="guidebook-container">
+        <div id="book">
+            <div id="book-cover">
+                <img id="cover-image" src="img/book_cover.png" alt="Book Cover">
+                <div id="cover-title"></div>
+                <div id="cover-subtitle">Click to open</div>
+            </div>
+            
+            <div id="book-content">
+                <div id="page-controls">
+                    <div id="prev-page">&lt;</div>
+                    <div id="page-number">Page <span id="current-page">1</span> of <span id="total-pages">1</span></div>
+                    <div id="next-page">&gt;</div>
+                </div>
+                
+                <div id="book-pages"></div>
+                
+                <div id="close-book">Close Book</div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
